@@ -1,0 +1,40 @@
+// ------------ A 方案 -----------------
+@import "../node_modules/bootstrap/scss/functions";
+
+@import "~bootstrap/scss/bootstrap";
+
+// ------------ B 方案 -----------------
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+// @import "../node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+// $primary: #de5b9d;
+// $btn-font-size: 40px;
+
+// 3. Include remainder of required Bootstrap stylesheets
+// @import "../node_modules/bootstrap/scss/variables";
+// @import "../node_modules/bootstrap/scss/mixins";
+// @import "../node_modules/bootstrap/scss/root";
+
+// $theme-colors: (
+//   "primary":    $pink-200,
+//   "secondary":  $secondary,
+//   "success":    $success,
+//   "info":       $info,
+//   "warning":    $warning,
+//   "danger":     $danger,
+//   "light":      $light,
+//   "dark":       $dark
+// ) ;
+
+// Create your own map
+// $custom-colors: (
+//   "custom-color": #900
+// );
+
+// Merge the maps
+// $theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+// @import "../node_modules/bootstrap/scss/buttons";
